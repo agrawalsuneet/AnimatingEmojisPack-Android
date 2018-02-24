@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <layer-list>
+
+            <!-- main background -->
+            <item>
+            <shape android:shape="oval">
+                <corners android:radius="20dp" />
+                <stroke android:width="2dp" android:color="@color/bg_endcolor" />
+                <!--<solid android:color="@color/mainmenu_btn_innercolor" />-->
+                <gradient android:centerColor="@color/bg_midcolor" android:centerX="0.5" android:centerY="0.5" android:endColor="@color/bg_endcolor" android:gradientRadius="100%" android:startColor="@color/bg_startcolor" android:type="radial" />
+
+                <!--<padding android:bottom="5dp" android:left="3dp" android:right="5dp" android:top="3dp" />-->
+            </shape>
+        </item>
+
+            <item>
+                <shape android:shape="oval">
+                    <size android:width="4dp" android:height="4dp"/>
+                    <corners android:radius="10dp" />
+                    <!--<stroke android:width="2dp" android:color="@color/bg_endcolor" />-->
+                    <solid android:color="@color/bg_white_6" />
+                    <!--<gradient android:centerColor="@color/bg_midcolor"
+                        android:centerX="0.5" android:centerY="0.5"
+                        android:endColor="@color/bg_endcolor"
+                        android:gradientRadius="100%" android:startColor="@color/bg_startcolor" android:type="radial" />-->
+
+                    <padding android:bottom="5dp" android:left="3dp" android:right="5dp" android:top="3dp" />
+                </shape>
+            </item>
+
+            <!--&lt;!&ndash; inner half transparent background &ndash;&gt;
+            <item android:bottom="20dp" android:left="3dp" android:right="5dp" android:top="3dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="8dp" />
+                    <solid android:color="#55ffffff" />
+                </shape>
+            </item>
+
+            &lt;!&ndash; top left corner backgrond &ndash;&gt;
+            <item android:bottom="30dp" android:left="3dp" android:right="250dp" android:top="3dp">
+                <shape android:shape="rectangle">
+                    <corners android:bottomLeftRadius="3dp" android:bottomRightRadius="8dp" android:topLeftRadius="8dp" android:topRightRadius="3dp" />
+                    <solid android:color="#99ffffff" />
+                </shape>
+            </item>-->
+
+        </layer-list>
+    </item>
+
+    <item android:state_pressed="true">
+        <layer-list>
+
+            <!-- main background -->
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="8dp" />
+                    <stroke android:width="2dp" android:color="@color/mainmenu_btn_clickbordercolor" />
+                    <solid android:color="@color/mainmenu_btn_clickinnercolor" />
+                    <padding android:bottom="5dp" android:left="3dp" android:right="5dp" android:top="3dp" />
+                </shape>
+            </item>
+
+            <!-- inner half transparent background -->
+            <item android:bottom="19dp" android:left="1dp" android:right="4dp" android:top="1dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="8dp" />
+                    <solid android:color="#77ffffff" />
+                </shape>
+            </item>
+
+            <!-- top left corner backgrond -->
+            <item android:bottom="29dp" android:left="1dp" android:right="249dp" android:top="1dp">
+                <shape android:shape="rectangle">
+                    <corners android:bottomLeftRadius="3dp" android:bottomRightRadius="8dp" android:topLeftRadius="8dp" android:topRightRadius="3dp" />
+                    <solid android:color="#ccffffff" />
+                </shape>
+            </item>
+
+        </layer-list>
+    </item>
+
+</selector>

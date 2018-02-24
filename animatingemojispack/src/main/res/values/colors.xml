@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mainmenu_btn_bordercolor">#8a4117</color>
+    <color name="mainmenu_btn_clickbordercolor">#cc8a4117</color>
+    <color name="mainmenu_btn_innercolor">#fdd017</color>
+    <color name="mainmenu_btn_clickinnercolor">#eefdd017</color>
+
+    <color name="bg_startcolor">#F6DF59</color>
+    <color name="bg_midcolor">#E89B37</color>
+    <color name="bg_endcolor">#BC551E</color>
+
+    <color name="bg_white_1">#ffffff</color>
+    <color name="bg_white_2">#aaffffff</color>
+    <color name="bg_white_3">#77ffffff</color>
+    <color name="bg_white_4">#33ffffff</color>
+    <color name="bg_white_5">#11ffffff</color>
+    <color name="bg_white_6">#00ffffff</color>
+    <color name="bg_white_7">#00ffffff</color>
+    <color name="bg_white_8">#00ffffff</color>
+
+
+</resources>
