@@ -18,5 +18,9 @@
     <color name="bg_white_7">#00ffffff</color>
     <color name="bg_white_8">#00ffffff</color>
 
+    <color name="eye_black_1">#ee662E13</color>
+    <color name="eye_black_2">#cc662E13</color>
+    <color name="eye_black_3">#aa662E13</color>
+
 
 </resources>
